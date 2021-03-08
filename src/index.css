@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  padding: 0 250px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: #94d500;
+}
+
+/* BeatsinputForm */
+.beatsinputform {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0px;
+}
+.beatsinputform__field {
+  padding: 25px;
+  margin: 0px 5px;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+.beatsinputform__button {
+  padding: 10px 50px;
+  border: 3px solid #94d500;
+  border-radius: 25px;
+  background-color: #94d500;
+  color: white;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+/* Playlist */
+.title {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.playlist {
+  width: 100%;
+}
+.playlist__header {
+  background-color: #000000;
+  color: white;
+}
+.playlist td,
+.playlist th {
+  padding: 15px;
+}
+
+/* Beats */
+.beatslist__row {
+  background-color: #fefefe;
+  border-bottom: 1px solid black;
+}
+
+.beatslist__item {
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: left;
+}
+
+button {
+  padding: 2px 10px;
+  border: 3px solid #94d500;
+  border-radius: 25px;
+  background-color: #94d500;
+  color: white;
+}
